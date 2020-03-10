@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 10 Mar 2020 pada 07.54
+-- Waktu pembuatan: 10 Mar 2020 pada 08.19
 -- Versi server: 10.4.8-MariaDB
 -- Versi PHP: 7.3.11
 
@@ -41,13 +41,13 @@ CREATE TABLE `photo` (
 --
 
 INSERT INTO `photo` (`id_photo`, `url`, `caption`, `like`, `id_profile`) VALUES
-(1, 'images/feedPhoto1.jpg', 'aeeoksaodksoadk #oaoe', '1', 1),
 (2, 'images/feedPhoto.jpg', 'ooo', '1', 1),
-(16, 'images/feedPhoto.jpg', 'oooasd', '1', 1),
 (23, 'images/_1.jpg', 'episode 1', '1', 0),
 (24, 'images/_2.jpg', 'Episode 2', '1', 0),
 (25, 'images/_3.jpg', 'ini episode 3\r\n', '1', 0),
-(26, 'images/_4.jpg', 'episode 4', '1', 0);
+(26, 'images/_4.jpg', 'episode 4', '1', 0),
+(28, 'images/_5.jpg', 'Episode 5', '1', 0),
+(29, 'images/_6.jpg', 'ini episode 6', '1', 0);
 
 -- --------------------------------------------------------
 
@@ -124,7 +124,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `photo`
 --
 ALTER TABLE `photo`
-  MODIFY `id_photo` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id_photo` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT untuk tabel `profile`
